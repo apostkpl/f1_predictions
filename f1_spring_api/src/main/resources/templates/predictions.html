@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Predictions</title>
+</head>
+<body>
+
+    <h2>F1 Predictions</h2>
+    <p>
+        Mode: <span th:text="${gridMode} ? 'With Grid Results Known' : 'No Grid Results Known'"></span>
+    </p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Race ID</th>
+                <th>Driver</th>
+                <th>Winning Probability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${predictions}">
+                <td th:text="${p.Year}"></td>
+                <td th:text="${p.raceID}"></td>
+                <td th:text="${p.Driver}"></td>
+                <td th:text="${p.Probability_to_win}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        <a href="/f1/predictions?grid=false">No Grid</a> | 
+        <a href="/f1/predictions?grid=true">With Grid</a>
+    </p>
+
+</body>
+</html>
