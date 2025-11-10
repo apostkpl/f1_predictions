@@ -7,6 +7,7 @@
 - _MiniConda/Python_
 - _Python Libraries (NumPy, Matplotlib, Pandas, Sklearn)_
 - _Bash/VIM (for minor details) and GitBash_
+- _Java and Java Frameworks (Spring Boot)_
 
   [![tools](https://skillicons.dev/icons?i=anaconda,py,bash,sklearn,git,java,spring)](https://skillicons.dev)
 
