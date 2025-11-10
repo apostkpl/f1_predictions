@@ -14,13 +14,14 @@
 - Beautify the end-result (HTML file).
 
 ## Tools used for this Project:
+- _VSCode_
 - _JupyterLab_
 - _MiniConda/Python_
 - _Python Libraries (NumPy, Matplotlib, Pandas, Sklearn)_
 - _Bash/VIM (for minor details) and GitBash_
 - _Java and Java Frameworks (Spring Boot)_
 
-  [![tools](https://skillicons.dev/icons?i=anaconda,py,bash,sklearn,git,java,spring)](https://skillicons.dev)
+  [![tools](https://skillicons.dev/icons?i=anaconda,py,bash,sklearn,git,vscode,java,spring)](https://skillicons.dev)
 
 ## To create an environment with the basic libraries needed for this project:
 - _Download the Anaconda Installer (MiniConda is recommended if you are used to the Terminal):_
