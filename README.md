@@ -8,7 +8,7 @@
 - _Python Libraries (NumPy, Matplotlib, Pandas, Sklearn)_
 - _Bash/VIM (for minor details) and GitBash_
 
-  [![tools](https://skillicons.dev/icons?i=anaconda,py,bash,sklearn,git)](https://skillicons.dev)
+  [![tools](https://skillicons.dev/icons?i=anaconda,py,bash,sklearn,git,java,spring)](https://skillicons.dev)
 
 ## To create an environment with the basic libraries needed for this project:
 - _Download the Anaconda Installer (MiniConda is recommended if you are used to the Terminal):_
